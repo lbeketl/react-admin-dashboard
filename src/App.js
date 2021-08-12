@@ -1,8 +1,13 @@
+import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      hello react
+    <div>
+      <Topbar/>
+      <div className="container">
+        <Sidebar/>
+      </div>
     </div>
   );
 }
