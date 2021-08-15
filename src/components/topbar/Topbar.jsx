@@ -23,8 +23,8 @@ export default function Topbar() {
           </div>
           <img
             className="topAvatar"
-            src="https://videofeed.tv/wp-content/uploads/2021/04/hipertextual-avatar-2-logra-concluir-su-rodaje-pese-covid-19-2020475848.jpg"
-            alt=""
+            src="https://image.api.playstation.com/vulcan/img/cfn/11307Ol4SQrlwZRPWJYoCBNAEtHJKiOioGmIJ61RI9jB91cgTvB6MglpwUffr90KWQTEmF19HaBpsjms8u1TIJ0et5w6C7_k.png"
+            alt="avatar"
           />
         </div>
       </div>
