@@ -49,3 +49,95 @@ export const userData = [
     }
   ];
 
+  export const userRows = [
+    {
+      id: 1,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 2,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 3,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 4,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 5,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 6,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 7,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 8,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 9,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+    {
+      id: 10,
+      lastName: ' Jon Snow',
+      avatar:
+        'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      email: 'snow@mail.com',
+      status: 'active',
+      transaction: '$120.00',
+    },
+  ];

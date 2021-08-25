@@ -4,7 +4,7 @@ import { userData } from '../../dummyData';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo'
 import Chart from '../../components/chart/Chart'
 import WidgetSm from '../../components/widgetSm/widgetSm';
-import WidgetLg from '../../components/widgetLg/widgetLg';
+import WidgetLg from '../../components/widgetLg/WidgetLg';
 export default function Home() {
     return (
         <div className="home">

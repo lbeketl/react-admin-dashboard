@@ -22,7 +22,7 @@ function WidgetLg() {
                 <img className="widgetLgImg" src="https://image.flaticon.com/icons/png/512/149/149071.png" alt="" />
                 <span className="widgetLgName">Susan Carol</span>
             </td>
-            <td className="widgetLgData">2 Jun 2021</td>
+            <td className="widgetLgDate">2 Jun 2021</td>
             <td className="widgetLgAmount">$122.03</td>
             <td className="widgetLgStatus">
                 <Button type="Approved"/>
@@ -33,7 +33,7 @@ function WidgetLg() {
                 <img className="widgetLgImg" src="https://image.flaticon.com/icons/png/512/149/149071.png" alt="" />
                 <span className="widgetLgName">Susan Carol</span>
             </td>
-            <td className="widgetLgData">2 Jun 2021</td>
+            <td className="widgetLgDate">2 Jun 2021</td>
             <td className="widgetLgAmount">$122.03</td>
             <td className="widgetLgStatus">
                 <Button type="Declined"/>
@@ -44,7 +44,7 @@ function WidgetLg() {
                 <img className="widgetLgImg" src="https://image.flaticon.com/icons/png/512/149/149071.png" alt="" />
                 <span className="widgetLgName">Susan Carol</span>
             </td>
-            <td className="widgetLgData">2 Jun 2021</td>
+            <td className="widgetLgDate">2 Jun 2021</td>
             <td className="widgetLgAmount">$122.03</td>
             <td className="widgetLgStatus">
                 <Button type="Pending"/>
