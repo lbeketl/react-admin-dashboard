@@ -1,13 +1,23 @@
 import React from 'react';
 import './user.css';
-import { LocationSearching, PermIdentity, CalendarToday, PhoneAndroid, MailOutline } from '@material-ui/icons';
+import {
+  LocationSearching,
+  PermIdentity,
+  CalendarToday,
+  PhoneAndroid,
+  MailOutline,
+  Publish,
+} from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 function User() {
   return (
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
-        <button className="userAddButton">Create</button>
+        <Link to="/newUser">
+          <button className="userAddButton">Create</button>
+        </Link>
       </div>
       <div className="userContainer">
         <div className="userShow">
@@ -48,10 +58,45 @@ function User() {
           </div>
         </div>
         <div className="userUpdate">
-            <span className="userUpdateTitle">Edit</span>
-            <form action="" className="userUpdateForm">
-                
-            </form>
+          <span className="userUpdateTitle">Edit</span>
+          <form action="" className="userUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label htmlFor="">Username</label>
+                <input className="userUpdateInput" type="text" placeholder="annabeck54" />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="">Full Name</label>
+                <input className="userUpdateInput" type="text" placeholder="Anna Becker" />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="">Email</label>
+                <input className="userUpdateInput" type="text" placeholder="annabeck54@mail.com" />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="">Phone</label>
+                <input className="userUpdateInput" type="text" placeholder="+3 234 543 23" />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="">Address</label>
+                <input className="userUpdateInput" type="text" placeholder="New York | USA" />
+              </div>
+            </div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img
+                  className="userUpdateImg"
+                  src="https://www.seekpng.com/png/full/356-3562377_personal-user.png"
+                  alt=""
+                />
+                <label htmlFor="file">
+                  <Publish className="userUpdateIcon" />
+                </label>
+                <input type="file" id="file" style={{ display: 'none' }} />
+              </div>
+              <button className="userUpdateButton">Update</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

@@ -49,94 +49,202 @@ export const userData = [
     }
   ];
 
+  export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 2000,
+    },
+    {
+      name: 'Feb',
+      "Sales": 4000,
+    },
+    {
+      name: 'Mar',
+      "Sales": 3000,
+    }
+  ]
+
+  export const productRows = [
+    {
+      id: 1,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 2,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 3,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 4,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 5,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 6,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 7,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 8,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 9,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+    {
+      id: 10,
+      name: 'Apple Airpods',
+      image:
+        'https://ilounge.ua/files/products/apple-airpods-2-midnight-green-mv7n2.1000x.jpeg',
+      stock: 123,
+      status: 'active',
+      price: '$120.00',
+    },
+  ];
+
   export const userRows = [
     {
       id: 1,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 2,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 3,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 4,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 5,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 6,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 7,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 8,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 9,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
     {
       id: 10,
-      lastName: ' Jon Snow',
+      username: 'Jon Dou',
       avatar:
         'https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-      email: 'snow@mail.com',
+      email: 'dou@mail.com',
       status: 'active',
       transaction: '$120.00',
     },
